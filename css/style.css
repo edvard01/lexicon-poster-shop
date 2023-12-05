@@ -1,0 +1,66 @@
+html body {
+  margin: 0;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  background-image: url(assets/poster.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 60vh;
+  width: 100vw;
+  align-items: flex-start;
+  justify-content: flex start;
+  background-color: #3de07e;
+}
+
+header > img {
+  padding: 25px;
+}
+
+main {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.small-poster-box {
+  display: flex;
+  width: 23%;
+  height: 600px;
+  margin: 35px;
+  flex-direction: column;
+  color: white;
+}
+
+.small-poster-box > h1 {
+  font-size: 2rem;
+  padding: 0;
+}
+
+.small-poster-box > img {
+  width: 100%;
+  height: 55%;
+}
+
+.small-poster-box > button {
+  margin-top: auto;
+  position: static;
+  align-self: flex-start;
+  border-radius: 5px;
+  background-color: red;
+  box-shadow: none;
+  border-color: red;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
